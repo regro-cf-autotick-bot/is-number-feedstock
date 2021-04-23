@@ -1,5 +1,5 @@
 {% set name = "is-number" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jacobtomlinson/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: c856d3c9a90eafe9503267f3ad9ab278cf846e4ba7ef660f9f42a707fe79ea10
+  sha256: c98ffda630d3b2bcf958b8842376520483a69f938e889bb60778fd65cc6e6617
 
 build:
   noarch: python
